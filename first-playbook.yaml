@@ -1,5 +1,6 @@
+---
 - hosts: webservergrp
   tasks:
-    - yum:
-        name: httpd
-        state: present
+    - yum: null
+      name: httpd
+      state: present
